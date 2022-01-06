@@ -1,3 +1,9 @@
 #! /usr/bin/env node
 
-console.log("The CLI is working 🚀");
+const inquirer = require("inquirer");
+
+const { questions, questionsTs } = require("./utils/questions.js");
+
+inquirer.prompt(questions).then((answers) => {
+  // Use user feedback for... whatever!!
+});

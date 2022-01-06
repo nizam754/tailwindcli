@@ -9,7 +9,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["cli", "tailwindcss", "nodejs"],
+  "keywords": [
+    "cli",
+    "tailwindcss",
+    "nodejs"
+  ],
   "author": "Nizam",
-  "license": "MNB"
+  "license": "MNB",
+  "dependencies": {
+    "inquirer": "^8.2.0",
+    "shelljs": "^0.8.4"
+  }
 }
